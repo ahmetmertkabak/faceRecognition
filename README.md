@@ -83,4 +83,21 @@ After capturing the faces, the next step is to train a face recognition model us
   
   Once the system is up and running, it will recognize faces and control the door lock accordingly. You can stop      the system at any time by pressing 'q'. If an error occurs, an error message will be displayed in the terminal.   
 
+->6. Project Folder Structure
+
+  ├── dataset/
+  
+  │....└── [user_names]/
+  
+  │........└── [face_photos].jpg
+  
+  ├── Capture_Faces.py
+  
+  ├── train_model.py
+  
+  ├── main.py
+  
+  ├── trainer.yml
+  
+  └── labels.pkl
 
