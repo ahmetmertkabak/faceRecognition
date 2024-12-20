@@ -1,7 +1,7 @@
 # faceRecognition
 Face Recognition-Based Door Lock System
 
-For more information you can visit our website -->  https://mefaceguard.com/  or check out our youtube video -->  [...]
+For more information you can visit our website -->  https://mefaceguard.com/  or check out our youtube video -->  https://youtu.be/OanOvf5ohT4?si=iOYQ-nSD0KD8OlaY
 
 This project aims to create a secure door lock system based on face recognition using Raspberry Pi and OpenCV. The system will unlock the door when an authorized user’s face is recognized by controlling a servo motor. The system allows the creation of a face database for recognition and ensures security by identifying known faces.
 
