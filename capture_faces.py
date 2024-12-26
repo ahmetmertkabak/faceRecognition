@@ -8,7 +8,7 @@ if not cap.isOpened():
     print("Kamera açılamadı!")
     exit()
 
-# Çözünürlük ayarla
+# Çözünürlük ayarlama
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
@@ -41,7 +41,7 @@ while True:
     # Görüntüyü ayna gibi çevir
     frame = cv2.flip(frame, 1)
     
-    # Yüz tespiti
+    # Yüz Tespiti
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
     
