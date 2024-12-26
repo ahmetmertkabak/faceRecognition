@@ -92,7 +92,7 @@ After capturing the faces, the next step is to train a face recognition model us
    │........└── [face_photos].jpg
   
    ├── Capture_Faces.py
-   
+    
    ├── train_model.py
   
    ├── main.py
